@@ -15,7 +15,7 @@ WHERE region IS NULL
 SELECT COUNT(*)
 FROM customers
 WHERE region IS NOT NULL
-
+-- 5
 SELECT ship_country, COUNT(*)
 FROM orders
 WHERE freight > 50
