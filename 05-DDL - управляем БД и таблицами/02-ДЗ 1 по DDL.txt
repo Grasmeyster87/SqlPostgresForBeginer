@@ -1,4 +1,6 @@
-1. Создать таблицу teacher с полями teacher_id serial, first_name varchar, last_name varchar, birthday date, phone varchar, title varchar
+1. Создать таблицу teacher с полями 
+teacher_id serial, first_name varchar, last_name varchar, 
+birthday date, phone varchar, title varchar
 
 2. Добавить в таблицу после создания колонку middle_name varchar
 
@@ -8,7 +10,11 @@
 
 5. Изменить тип данных колонки phone на varchar(32)
 
-6. Создать таблицу exam с полями exam_id serial, exam_name varchar(256), exam_date date
+6. Создать таблицу exam с полями 
+
+exam_id serial, 
+exam_name varchar(256), 
+exam_date date
 
 7. Вставить три любых записи с автогенерацией идентификатора
 

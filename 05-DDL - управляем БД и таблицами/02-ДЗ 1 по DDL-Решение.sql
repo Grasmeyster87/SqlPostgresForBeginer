@@ -27,8 +27,8 @@ CREATE TABLE exam
 	exam_date date
 );
 
-INSERT INTO exam
-VALUES(exam_name, exam_date)
+INSERT INTO exam (exam_name, exam_date)
+VALUES
 ('exam 1', '2018-01-10')
 ('exam 2', '2018-02-10')
 ('exam 3', '2018-03-10');
